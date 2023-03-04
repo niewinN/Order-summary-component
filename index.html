@@ -10,48 +10,34 @@
 
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Red+Hat+Display:wght@500;700;900&display=swap"
-    rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <main class="main">
     <div class="card">
-      <img src="images/illustration-hero.svg" alt="Dancing guy">
+      <img class="img" src="images/illustration-hero.svg" alt="Dancing guy">
       <div class="text-box">
         <h1 class="title">Order Summary</h1>
         <p class="text">You can now listen to millions of songs, audiobooks, and podcasts on any
           device anywhere you like!</p>
         <div class="plan-box">
-          <img src="images/icon-music.svg" alt="Music icon">
-          <div class="price-box">
-            <h2 class="plan-title">Annunal Plan</h2>
-            <p class="price">$59.99/year</p>
+          <div class="box-left">
+            <img class="img-plan" src="images/icon-music.svg" alt="Music icon">
+            <div class="price-box">
+              <h2 class="plan-title">Annunal Plan</h2>
+              <p class="price">$59.99/year</p>
+            </div>
           </div>
           <a href="#" class="change">Change</a>
         </div>
         <div class="button-box">
           <button class="payment">Proceed to Payment</button>
         </div>
-        <div class="button-box">
-          <button class="cancel">Cancel Order</button>
-        </div>
+        <a href="#" class="cancel">Cancel Order</a>
       </div>
     </div>
   </main>
