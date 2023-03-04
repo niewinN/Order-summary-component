@@ -18,7 +18,7 @@ html {
 	justify-content: center;
 	align-items: center;
 	background-color: hsl(224, 23%, 55%);
-    background-image: url('/images/pattern-background-mobile.svg');
+    background-image: url('images/pattern-background-mobile.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -145,7 +145,7 @@ html {
 @media(min-width: 1024px) {
 
     .main {
-        background-image: url('/images/pattern-background-desktop.svg');
+        background-image: url('images/pattern-background-desktop.svg');
     }
 
     .card {
